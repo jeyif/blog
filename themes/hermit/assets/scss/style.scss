@@ -7,19 +7,19 @@
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-  background: $midnightblue;
+  background: var(--midnightblue);
 }
 
 ::-webkit-scrollbar-thumb {
   background: #888;
 
   &:hover {
-    background: $text;
+    background: var(--text);
   }
 }
 
 html {
-  background: $light-grey;
+  background: var(--light-grey);
   line-height: 1.6;
   letter-spacing: .06em;
   scroll-behavior: smooth;
@@ -30,7 +30,7 @@ button,
 input,
 select,
 textarea {
-  color: $text;
+  color: var(--text);
   font-family: $fonts;
 }
 
@@ -48,20 +48,20 @@ pre {
   letter-spacing: normal;
   white-space: pre;
   color: #eee;
-  background: $midnightblue;
+  background: var(--midnightblue);
   border-radius: 4px;
   // -webkit-overflow-scrolling: touch;
 
   code {
     padding: 0;
     margin: 0;
-    background: $midnightblue;
+    background: var(--midnightblue);
   }
 }
 
 code {
   color: #eee;
-  background: $highlight-grey;
+  background: var(--highlight-grey);
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
@@ -86,7 +86,7 @@ blockquote {
 }
 
 a {
-  color: $text;
+  color: var(--text);
   text-decoration: none;
   border: none;
   transition-property: color;
@@ -229,7 +229,7 @@ table {
   width: 100%;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px rgba(0, 0, 0, 0.45);
-  background-color: $dark-grey;
+  background-color: var(--dark-grey);
   animation-duration: .3s;
 }
 
@@ -253,7 +253,7 @@ table {
 
     .has-children {
       padding-right: .5em;
-      border-right: 2px solid $highlight-grey;
+      border-right: 2px solid var(--highlight-grey);
     }
 
     .sub-menu > a{
@@ -302,7 +302,7 @@ table {
   z-index: 1;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px 0px rgba(0, 0, 0, 0.45);
-  background-color: $dark-grey;
+  background-color: var(--dark-grey);
 
   ul {
     list-style: none;
@@ -369,7 +369,7 @@ p.img-404 {
 
     a {
       display: inline-block;
-      border: 2px solid $text;
+      border: 2px solid var(--text);
       border-radius: 5px;
       padding: 5px;
       transition-property: color, border-color;
@@ -469,7 +469,7 @@ p.img-404 {
   }
 
   .post-item {
-    border-bottom: 1px $highlight-grey dashed;
+    border-bottom: 1px var(--highlight-grey) dashed;
 
     a {
       display: flex;
@@ -591,7 +591,7 @@ hr.post-end {
     opacity: .8;
     &:hover {
       background: none;
-      color: $theme;
+      color: var(--theme);
       opacity: 1;
     }
 
@@ -644,11 +644,11 @@ a.footnote-ref {
   text-decoration: none;
   padding: 2px;
   border-radius: 2px;
-  background-color: $midnightblue;
+  background-color: var(--midnightblue);
 
   &:hover{
     box-shadow: none;
-    background-color: $theme;
+    background-color: var(--theme);
     transition-property: background-color;
   }
 }
@@ -663,7 +663,7 @@ a.footnote-ref {
   }
 
   a:hover {
-    border-bottom: 1px solid $theme;
+    border-bottom: 1px solid var(--theme);
   }
 
   svg {
@@ -711,7 +711,7 @@ a.footnote-ref {
   }
 
   a:hover {
-    border-bottom: $theme 1px solid;
+    border-bottom: var(--theme) 1px solid;
   }
 }
 

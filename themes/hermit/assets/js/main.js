@@ -79,14 +79,20 @@ const toggleToc = () => {
   document.getElementById('toc').classList.toggle('show-toc');
 }
 
+// colorTheme Toggle
+//
+const toggleColorTheme = () => {
+  document.querySelector('html').classList.toggle('dark-theme');
+}
 
 if (header !== null) {
   listen('#menu-btn', "click", toggleMobileMenu);
   listen('#toc-btn', "click", toggleToc);
   listen('#img-btn', "click", showImg);
   listen('.bg-img', "click", hideImg);
+  listen('#color-theme-btn', "click", toggleColorTheme);
 
-  document.querySelectorAll('.post-year').forEach((ele)=> {
+  document.querySelectorAll('.post-year').forEach((ele) => {
     ele.addEventListener('click', () => {
       window.location.hash = '#' + ele.id;
     });
