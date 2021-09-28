@@ -4,19 +4,19 @@
 @import "animate.scss";
 
 /* Webkit Scrollbar Customize */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-  background: var(--midnightblue);
-}
+// ::-webkit-scrollbar {
+//   width: 8px;
+//   height: 8px;
+//   background: var(--midnightblue);
+// }
 
-::-webkit-scrollbar-thumb {
-  background: #888;
+// ::-webkit-scrollbar-thumb {
+//   background: #888;
 
-  &:hover {
-    background: var(--text);
-  }
-}
+//   &:hover {
+//     background: var(--text);
+//   }
+// }
 
 html {
   background: var(--light-grey);
@@ -31,7 +31,7 @@ input,
 select,
 textarea {
   color: var(--text);
-  font-family: $fonts;
+  font-family: var(--fonts);
 }
 
 pre,
@@ -225,7 +225,7 @@ table {
 #site-header {
   position: fixed;
   z-index: 1;
-  bottom: 0;
+  top: 0;
   width: 100%;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px rgba(0, 0, 0, 0.45);
