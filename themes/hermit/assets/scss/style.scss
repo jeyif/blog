@@ -94,8 +94,8 @@ a {
   transition-timing-function: ease-out;
 
   &:hover {
-    color: #fff;
-    text-shadow: 0 0 1px #fff;
+    color: var(--theme);
+    text-shadow: 0 0 1px var(--theme);
   }
 }
 

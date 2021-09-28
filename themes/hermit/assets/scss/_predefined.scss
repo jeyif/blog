@@ -1,19 +1,20 @@
 // Colors
 //
 :root {
-  --theme: #018574;
-  --text: #e8eef2;
-  --light-grey: #494f5c;
-  --dark-grey: #3b3e48;
-  --highlight-grey: #7d828a;
-  --midnightblue: #2c3e50;
+  --theme: #f69653;
+  --text: #313233;
+  --light-grey: #fffffb;
+  --dark-grey: #fffffb;
+  --highlight-grey: #fffffb;
+  --midnightblue: #fffffb;
+  
 }
 
 // Dark theme
 .dark-theme {
-  --theme: #018574;
+  --theme: #f69653;
   --text: #e8eef2;
-  --light-grey: #fffffb;
+  --light-grey: #494f5c;
   --dark-grey: #3b3e48;
   --highlight-grey: #7d828a;
   --midnightblue: #2c3e50;
