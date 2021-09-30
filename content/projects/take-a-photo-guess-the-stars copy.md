@@ -1,7 +1,7 @@
 ---
 author: Jeyi Feng
 date: 2014-09-28
-title: Take a photo, Guess the Stars
+title: Take a Photo, Guess the Stars
 # images: https://picsum.photos/1280/360/?random
 ---
 
