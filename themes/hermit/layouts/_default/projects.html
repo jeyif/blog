@@ -13,7 +13,12 @@
     {{- range .Pages }}
     <section class="post-item">
       <a href="{{.Permalink}}">
-        <img class="post-thumb" src="https://picsum.photos/1280/480/?random" />
+        <img
+          class="post-thumb"
+          loading="lazy"
+          alt=""
+          src="https://picsum.photos/1280/480/?random"
+        />
         <div class="post-info">
           <div class="post-title">{{ .Title }}</div>
           <div class="post-tag">Mobile Design & Mini Program</div>

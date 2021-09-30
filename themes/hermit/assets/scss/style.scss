@@ -491,13 +491,13 @@ p.img-404 {
 .projects-group {
   display: flex;
   flex-direction: column;
-  gap: 2.4em;
+  gap: 4em;
   
   .post-item {
     position: relative;
     transition: all .3s ease-in-out;
     background: #FFF6E8;
-    padding-top: calc(50% - 8rem);
+    padding-top: calc(50% - 4rem);
     border-radius: 8px;
     overflow: hidden;
     > a {
