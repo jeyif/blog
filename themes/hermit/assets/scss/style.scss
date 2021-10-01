@@ -548,8 +548,15 @@ p.img-404 {
       font-size: 36px;
       font-weight: 500;
     }
-    .post-tag {
+    .post-tags {
       font-size: 16px;
+      .post-tag {
+        &:not(:last-child) {
+          &::after {
+            content: ' & ';
+          }
+        }
+      }
     }
   }
 }
